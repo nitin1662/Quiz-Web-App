@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="question.css" >
+    <link rel="icon" type="image/png"  href="./data/pankaj_logo.png">
+    <script src="https://kit.fontawesome.com/4361b61862.js" crossorigin="anonymous"></script>
+    <title>Question Page</title>
+</head>
+<body class="bg">
+
+    <div class="button-div">
+        <button id="end-test-button">End Test</button>
+    </div>
+
+    <main>
+             
+        <div class="main-div">
+
+            <div class="design">
+
+                <div class="log-box">
+                    <h1>Quiz Timing</h1>
+                </div>
+
+                <div class="s-d"></div>
+    
+            </div> 
+
+            <audio id="background-music" autoplay loop>
+                <source src="./data/1-efek-sound-2-220036.mp3" type="audio/mp3">
+                 </audio>
+            
+                 <audio id="background-music1" autoplay >
+                    <source src="./data/mixkit-wrong-answer-fail-notification-946.wav" type="audio/mp3">
+                     </audio>
+            
+
+                     <audio id="background-music2" autoplay >
+                        <source src="./data/mixkit-correct-answer-reward-952.wav" type="audio/mp3">
+                         </audio>
+
+            <div class="d-s"> 
+
+                <i class="fa-solid fa-volume-high" id="toggle-music"></i>
+
+                </div>
+
+
+            <div class="question-number">
+                    <h1><span id="i">0</span>/<span id="j">0</span></h1>
+            </div>
+
+
+            <div class="question-box">
+               
+                <h1 id="question-h1">Which one of the following also known as Conditional Expression:</h1>
+                
+            </div>
+
+            <div class="timier">
+                <h1><span id="minutes">00</span>:<span id="seconds">00</span></h1>
+            </div>
+
+
+
+        <div class="option-box">
+               
+           <div class="option1 option" > 
+            <div class="s-div">
+                <h1 class="option-text" id="option-1">Alternative to if-else</h1>
+                </div>
+                <div class="right-wrong-icon hidde-visibility" id="o-1">
+                  
+                    
+                </div>
+           </div>
+
+           <div class="option2 option">
+            <div class="s-div">
+                <h1 class="option-text" id="option-2">Alternative to if-else</h1>
+                </div>
+            <div class="right-wrong-icon hidde-visibility" id="o-2">
+               
+                <i class="fa-solid fa-circle-check icon-d-r"></i>
+            </div>
+           </div>
+
+           <div class="option3 option ">
+            <div class="s-div">
+                <h1 class="option-text" id="option-3">Alternative to if-else</h1>
+                </div>
+            <div class="right-wrong-icon hidde-visibility" id="o-3">
+                <p>You Chose</p>
+                <i class="fa-solid fa-circle-xmark icon-d-w"></i>
+            </div>
+           </div>
+
+           <div class="option4 option">
+            <div class="s-div">
+                <h1 class="option-text" id="option-4">Alternative to if-else</h1>
+                </div>
+             <div class="right-wrong-icon hidde-visibility" id="o-4">
+                <p>You Chose</p>
+                <i class="fa-solid fa-circle-xmark icon-d-w"></i>
+            </div>
+           </div>
+            
+        </div>
+</div>
+    </main>
+
+    <div class="next-button"><a ><h1 id="n-b-h1">Next > > ></h1></a></div>
+     
+    <div class="s-p"><p>Made With ❤️ By Pankaj Saratkar</p></div>
+    
+   
+   
+    
+</body>
+<script src="./question.js"></script>
+</html>
